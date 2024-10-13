@@ -1,4 +1,233 @@
-h1{
-    color: yellow;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #2c344c
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#585f6d ;
+    color: white;
+    margin: 0;
+    
+}
+
+header img {
+    width: 50px;
+    margin-left: 27px;
+}
+
+/* header nav {
+    font-size: 2.7rem;
+} */
+
+header nav .mybutton{
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+    padding: 0px 25px;
+ 
+}
+
+
+section h1{
+    /* font-size: 3.6rem; */
     text-align: center;
+    font-family: 'Georgia', serif;
+    margin: 30px 0;
+    font-weight: lighter;
+    color: #e2db95;
+    /* color: #ff5733 */
+}
+
+section p {
+  
+    text-align: center;
+    /* line-height: 40px; */
+    font-size: 20px;
+    font-weight: lighter;
+
+    margin:50px 0;
+    padding: 0 30px;
+    font-family: 'Roboto', sans-serif;
+    /* color: #ff5733 */
+}
+
+section h2{
+    text-align: center;
+    font-family: 'Georgia', serif;
+    margin-top: 80px;
+    font-weight: lighter;
+
+   
+    color: #e2db95;
+    /* color: #ff5733 */
+}
+
+.activities{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+} 
+.activities img {
+    width: 30%;
+    padding: 30px 30px;
+    border-radius: 40px;
+}
+
+
+
+section h3 {
+  
+    font-family: 'Georgia', serif;
+    /* color: #ff5733 */
+}
+
+.teachers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+
+
+.teacher-info{
+    flex: 1;
+   
+    
+}
+
+.teacher-info h3 {
+    padding-left: 20px;
+    font-weight: lighter;
+}
+.teacher-info p {
+    padding-left: 20px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.teacher-img{
+    flex: 0.5;
+}
+
+.teacher-img img{
+    width: 80%;
+    height: auto;
+    border-radius: 80%;
+}
+
+.teacher-info h3{
+    /* font-size: 3.2rem;
+    text-align: left; */
+    font-family: 'Georgia', serif;
+    /* color: #ff5733 */
+}
+
+#Schedule{
+    padding: 0 27px;
+    
+
+}
+
+#Schedule h2{
+margin: 40px 0;    
+
+}
+
+table {
+    width: 80%;
+
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 20px; /* Increased padding for more height */
+    text-align: center;
+    border: 1px solid #dddddd;
+    /* font-size: 1.8rem; Increased font size for table content */
+}
+
+table th {
+    background-color: #ffcc00;
+    color: #333333;
+    font-weight: bold;
+    /* font-size: 2rem; Increased font size for table headers */
+}
+
+table td {
+    background-color: #f9f9f9;
+    color: #555555;
+}
+
+table tr:hover td {
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+    table, th, td {
+        font-size: 1.4rem; /* Slightly smaller for mobile screens */
+    }
+}
+
+footer{
+    background-color:#585f6d ;
+    padding: 30px;
+    
+    
+}
+
+.footer-cont{
+    margin: 30px 0;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  
+ 
+
+}
+.section  {
+    list-style-type: none; 
+    font-weight: lighter;
+
+}
+
+footer h2{
+    /* font-size: 3.5rem; */
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-weight: lighter;
+   
+    /* color: #ff5733 */
+}
+
+footer ul li {
+    /* font-size: 2.2rem; */
+    font-family:Arial, Helvetica, sans-serif
+    font-weight: lighter;
+    /* color: #ff5733 */
+}
+
+footer ul li a:hover {
+    color: #FF5733; /* Changes color to orange on hover */
+    text-decoration: underline; /* Underlines the text on hover */
+    background-color: #FFFF99; /* Adds a light yellow background on hover */
 }
